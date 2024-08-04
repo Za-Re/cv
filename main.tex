@@ -1,0 +1,140 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	TITLE HEADLINE
+	%----------------------------------------------------------------------------------------
+	\begin{minipage}[t]{0.45\textwidth}\hrule height 0pt width 0pt%
+		\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Zara Rezaie}}}}}%
+		
+		\vspace{1mm}\LARGE{Infrastructure Consultant}
+	\end{minipage}%
+	\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
+		\small%
+		\icontext{MapMarker}{12}{Hamburg, Germany}\\
+		\icontext{Phone}{12}{+420 111 111 11}\\
+		\icontext{At}{12}{\href{mailto:z.rezaie87@gmail.com}{z.rezaie87@gmail.com}}\\
+	\end{minipage}%
+	\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
+		\small%
+		\icontext{Github}{12}{\href{https://github.com/Za-Re}{Github}}\\
+		\icontext{Twitter}{12}{\href{https://www.linkedin.com/in/zararezaie/}{LinkedIn}}\\
+	\end{minipage}%
+
+	\vspace{0.5cm}
+	
+	%----------------------------------------------------------------------------------------
+	%	SKILLS AND TECHNOLOGIES
+	%----------------------------------------------------------------------------------------
+	
+	\cvsect{Who Am I?}%
+	\begin{minipage}[t]{0.4\textwidth}%
+		\lorem \lorem \lorem \lorem \lorem\\
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth}\hrule height 0pt width 0pt%
+		\vspace{-10pt}%
+		\begin{barchart}{10}{5.5}{red}{white}{black}{black}{black}{black}
+			\baritem{50}{Python}{70}
+			\baritem{80}{AWS}{70}
+			\baritem{80}{Github Actions}{80}
+			\baritem{80}{Terraform}{70}
+			\baritem{80}{Kubernetes}{50}
+			\baritem{40}{Git}{0}{0}{70}
+		\end{barchart}
+	\end{minipage}%
+	
+	%\begin{center}
+    %	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+    %\end{center}
+
+    %----------------------------------------------------------------------------------------
+    %	EXPERIENCE
+    %----------------------------------------------------------------------------------------
+	
+	\cvsect{Experience}
+
+    \begin{entrylist}
+    	\entry
+    		{08/2021 -- Present}
+    		{Infrastructure Consultant}
+    		{Thoughtworks Germany.}
+    		{<fill out description>:\\
+
+            \textbf{German Car Manufacturer} {\footnotesize(04/2024 -- Present)}
+            \begin{itemize}
+                \item item1
+                \item item2
+                \item item3
+
+            \end{itemize}
+      \texttt{AWS}\slashsep\texttt{Github Actions}\slashsep\texttt{Terraform}\slashsep\texttt{Scala}\slashsep\texttt{Bash}\slashsep\texttt{Python script}\\
+
+            \textbf{German Car Manufacturer} {\footnotesize(12/2021 -- 03/2024)}
+            \begin{itemize}
+                \item item1
+                \item item2
+                \item item3
+            \end{itemize}
+      \texttt{AWS}\slashsep\texttt{Kubernetes}\slashsep\texttt{Docker}\slashsep\texttt{GoCD}\slashsep\texttt{Github Actions}\slashsep\texttt{Terraform}\slashsep\texttt{Datadog}\slashsep\texttt{Bash}
+
+        }
+    	\entry
+    		{01/2020 -- 01/2021\\}
+    		{Junior Researcher}
+    		{FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur}
+    		{Full-time work in a highly agile work environment. Despite being a student, I took part in real software development early on and substantially contributed to different parts of the company throughout my studies. Highlights include:
+            \begin{itemize}
+                \item Research on hate speech detection and migration prediction
+                \item Statistical and linguistic analysis of textual social media data
+                \item Creation of a corpus from Twitter data to analyze public opinions
+                \item Data visualization
+            \end{itemize}
+            \texttt{Python}\slashsep\texttt{Pandas}\slashsep\texttt{Numpy}\slashsep\texttt{NLTK}
+            \texttt{Scikit-learn}\slashsep\texttt{Matplotlib}\slashsep\texttt{SPARQL}\slashsep\texttt{Twitter API}
+            }
+    \end{entrylist}
+
+    %----------------------------------------------------------------------------------------
+    %
+
+    \pagebreak
+	\cvsect{Education}
+	\begin{entrylist}
+		\entry
+		{2014 – 2017}
+		{M.Sc. in Computer Engineering, Software}
+		{Imam Reza International University}
+		{Master Thesis: Sentiment Analysis on Twitter Data using McDiarmid Tree Algorithm- Preprocessing and sentiment analysis of tweets}
+		\entry
+		{2008 – 2013}
+		{B.Sc. in Computer Engineering, Hardware}
+		{Ferdowsi University of Mashhad}
+		{Undergraduate Thesis: A System for Scheduling University Course Timetabling- Development of a system to automatically schedule university courses using graph coloring algorithm}
+	\end{entrylist}
+	\\\\
+	\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
+		\cvsect{Languages}
+		\textbf{Persian} - native\\
+		\textbf{English} - C2\\
+		\textbf{Polish} - C1
+	\end{minipage}%
+	\hspace{0cm}
+	\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
+		\cvsect{Hobbies}
+		I like reading novels, cycling, cooking, and ...
+	\end{minipage}%
+	%\hspace{2cm}
+	%\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
+	%	\cvsect{Non profit}
+	%	I help... \lorem
+	%\end{minipage}%
+	% LANGUAGES
+	
+\end{document}
